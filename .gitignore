@@ -29,6 +29,7 @@ ui_*.h
 *.qmlc
 *.jsc
 Makefile*
+**/Makefile
 *build-*
 *.qm
 *.prl
@@ -82,7 +83,7 @@ compile_commands.json
 **/CMakeCache.txt
 **/cmake_install.cmake
 **/install_manifest.txt
-**/CMakeFiles/
+CMakeFiles
 **/CTestTestfile.cmake
 **/Makefile
 **/*.cbp
@@ -101,5 +102,7 @@ include/*
 lib/*
 bin/*
 test/test_runner
-
-
+sqliteman/sqliteman_autogen/
+sqliteman/sqliteman
+*.cpp_parameters
+cmake_uninstall.cmake
