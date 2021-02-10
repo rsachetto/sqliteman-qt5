@@ -1,5 +1,7 @@
 This is a Qt5 port of Sqliteman. Tested only on Ubuntu.
 
+=====================================================================================
+
 Sqliteman is simple but powerfull Sqlite3 GUI database manager.
 
 see: http://sqliteman.com
@@ -17,17 +19,6 @@ For using binaries:
 BUILDING FROM SOURCES
 
 Qmake project is used only for translations.
-
-
-MS Windows:
-
- - Full Qt4.2 (4.3 suggested) or later properly installed on path
- - building procedure (in the Sqliteman root directory):
-1) cmake
-2) make
-
-see available cmake options below.
-
 
 UN*X:
 
