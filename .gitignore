@@ -106,3 +106,4 @@ sqliteman/sqliteman_autogen/
 sqliteman/sqliteman
 *.cpp_parameters
 cmake_uninstall.cmake
+.ccls-cache
